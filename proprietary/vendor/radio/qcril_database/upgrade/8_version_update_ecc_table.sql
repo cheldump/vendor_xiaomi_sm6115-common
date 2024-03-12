@@ -9,6 +9,8 @@ BEGIN TRANSACTION;
 INSERT OR REPLACE INTO qcril_properties_table (property, value) VALUES ('qcrildb_version', 8);
 INSERT INTO qcril_emergency_source_mcc_table VALUES('204','112','','');
 INSERT INTO qcril_emergency_source_mcc_table VALUES('206','112','','');
+INSERT INTO qcril_emergency_source_mcc_table VALUES('208','911','','');
+INSERT INTO qcril_emergency_source_mcc_table VALUES('208','112','','');
 INSERT INTO qcril_emergency_source_mcc_table VALUES('214','911','','');
 INSERT INTO qcril_emergency_source_mcc_table VALUES('214','112','','');
 INSERT INTO qcril_emergency_source_mcc_table VALUES('216','112','','');
